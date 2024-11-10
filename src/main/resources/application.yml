@@ -20,3 +20,12 @@ application:
       secret-key: 4bb6d1dfbafb64a681139d1586b6f1160d18159afd57c8c79136d7490630407c
       access-token-expiration: 900000 # 15 min
       refresh-token-expiration: 1800000 # 30 min
+  openapi:
+    dev-url: http://localhost:8080
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
